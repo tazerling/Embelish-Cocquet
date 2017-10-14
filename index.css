@@ -1,0 +1,64 @@
+body
+{
+	margin: 0;
+	background: #F4C095;
+}
+
+.a
+{
+	background: #472FC5;
+	width: 100%;
+	height: 735px;
+	line-height: 1000px;
+	text-align: center;
+	color: black;
+	position: relative;
+	font-size: 30px;
+	-webkit-animation: 2s ease abc;
+	overflow: hidden;
+}
+
+@keyframes abc
+{
+	0%{right: 100%;width: 0%; opacity: 0;}
+	100%{right: 0%;width: 100%; opacity: 1;}
+}
+
+.b
+{
+	background: #EE2E31;
+	width: 1500px;
+	color: black;
+	height: 0px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 70px;
+	font-family: verdana;
+}
+
+
+.button
+{
+	background-color: white; 
+    border: solid;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: verdana;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.button:hover 
+{
+	background: black;
+	color: white;
+}
